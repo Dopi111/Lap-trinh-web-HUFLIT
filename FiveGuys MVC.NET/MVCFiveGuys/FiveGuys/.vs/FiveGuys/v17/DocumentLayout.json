@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\L\u1EADp tr\u00ECnh web\\MVCFiveGuys\\FiveGuys\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|d:\\l\u1EADp tr\u00ECnh web\\mvcfiveguys\\fiveguys\\fiveguys\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|solutionrelative:fiveguys\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|d:\\l\u1EADp tr\u00ECnh web\\mvcfiveguys\\fiveguys\\fiveguys\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|solutionrelative:fiveguys\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|d:\\l\u1EADp tr\u00ECnh web\\mvcfiveguys\\fiveguys\\fiveguys\\views\\why\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|solutionrelative:fiveguys\\views\\why\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|d:\\l\u1EADp tr\u00ECnh web\\mvcfiveguys\\fiveguys\\fiveguys\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|solutionrelative:fiveguys\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|d:\\l\u1EADp tr\u00ECnh web\\mvcfiveguys\\fiveguys\\fiveguys\\views\\testimonial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|solutionrelative:fiveguys\\views\\testimonial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|d:\\l\u1EADp tr\u00ECnh web\\mvcfiveguys\\fiveguys\\fiveguys\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|solutionrelative:fiveguys\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Views\\Why\\Index.cshtml",
+              "RelativeDocumentMoniker": "FiveGuys\\Views\\Why\\Index.cshtml",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Views\\Why\\Index.cshtml",
+              "RelativeToolTip": "FiveGuys\\Views\\Why\\Index.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAACoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T18:57:26.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "FiveGuys\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "FiveGuys\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAIQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T18:55:46.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "FiveGuys\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "FiveGuys\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AQIAADgBAAAAAAAAAAAAAIUBAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T18:53:01.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web\\MVCFiveGuys\\FiveGuys\\FiveGuys\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "FiveGuys\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web\\MVCFiveGuys\\FiveGuys\\FiveGuys\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "FiveGuys\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T18:52:31.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Views\\Testimonial\\Index.cshtml",
+              "RelativeDocumentMoniker": "FiveGuys\\Views\\Testimonial\\Index.cshtml",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Views\\Testimonial\\Index.cshtml",
+              "RelativeToolTip": "FiveGuys\\Views\\Testimonial\\Index.cshtml",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAAABQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T18:51:43.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FiveGuys\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FiveGuys\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAwwIsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T18:49:57.369Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

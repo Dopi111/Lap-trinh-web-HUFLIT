@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|d:\\23dh111197lamvanhuy (2)\\laptrinhweb\\lap-trinh-web-huflit\\login\\login\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|solutionrelative:login\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|d:\\23dh111197lamvanhuy (2)\\laptrinhweb\\lap-trinh-web-huflit\\login\\login\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|solutionrelative:login\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|d:\\23dh111197lamvanhuy (2)\\laptrinhweb\\lap-trinh-web-huflit\\login\\login\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|solutionrelative:login\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|d:\\23dh111197lamvanhuy (2)\\laptrinhweb\\lap-trinh-web-huflit\\login\\login\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|solutionrelative:login\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|d:\\23dh111197lamvanhuy (2)\\laptrinhweb\\lap-trinh-web-huflit\\login\\login\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|solutionrelative:login\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|d:\\23dh111197lamvanhuy (2)\\laptrinhweb\\lap-trinh-web-huflit\\login\\login\\models\\mylogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|solutionrelative:login\\models\\mylogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|d:\\23dh111197lamvanhuy (2)\\laptrinhweb\\lap-trinh-web-huflit\\login\\login\\models\\userregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|solutionrelative:login\\models\\userregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|d:\\23dh111197lamvanhuy (2)\\laptrinhweb\\lap-trinh-web-huflit\\login\\login\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|solutionrelative:login\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|d:\\23dh111197lamvanhuy (2)\\laptrinhweb\\lap-trinh-web-huflit\\login\\login\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B120626B-9EFD-4E4F-B1BC-47E38801FCB6}|Login\\Login.csproj|solutionrelative:login\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Login\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T10:53:22.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyLogin.cs",
+              "DocumentMoniker": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Models\\MyLogin.cs",
+              "RelativeDocumentMoniker": "Login\\Models\\MyLogin.cs",
+              "ToolTip": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Models\\MyLogin.cs",
+              "RelativeToolTip": "Login\\Models\\MyLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T10:27:45.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Login\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T09:33:19.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Login\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Login\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T09:33:02.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Login\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T09:27:01.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Login\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Login\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwCwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T08:59:46.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRegister.cs",
+              "DocumentMoniker": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Models\\UserRegister.cs",
+              "RelativeDocumentMoniker": "Login\\Models\\UserRegister.cs",
+              "ToolTip": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Models\\UserRegister.cs",
+              "RelativeToolTip": "Login\\Models\\UserRegister.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T08:58:17.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Login\\Models\\Model1.edmx",
+              "ToolTip": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Login\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-09T08:57:26.755Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\23dh111197lamvanhuy (2)\\LapTrinhWeb\\Lap-trinh-web-HUFLIT\\Login\\Login\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Login\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T09:33:23.944Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

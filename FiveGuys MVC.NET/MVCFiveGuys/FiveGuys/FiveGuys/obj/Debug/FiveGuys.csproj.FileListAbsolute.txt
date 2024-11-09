@@ -156,3 +156,8 @@ D:\Lập trình web\Lap-trinh-web-HUFLIT\FiveGuys MVC.NET\MVCFiveGuys\FiveGuys\F
 D:\Lập trình web\Lap-trinh-web-HUFLIT\FiveGuys MVC.NET\MVCFiveGuys\FiveGuys\FiveGuys\obj\Debug\FiveGuys.csproj.Up2Date
 D:\Lập trình web\Lap-trinh-web-HUFLIT\FiveGuys MVC.NET\MVCFiveGuys\FiveGuys\FiveGuys\obj\Debug\FiveGuys.dll
 D:\Lập trình web\Lap-trinh-web-HUFLIT\FiveGuys MVC.NET\MVCFiveGuys\FiveGuys\FiveGuys\obj\Debug\FiveGuys.pdb
+D:\Lập trình web\Lap-trinh-web-HUFLIT\FiveGuys MVC.NET\MVCFiveGuys\FiveGuys\FiveGuys\bin\EntityFramework.dll
+D:\Lập trình web\Lap-trinh-web-HUFLIT\FiveGuys MVC.NET\MVCFiveGuys\FiveGuys\FiveGuys\bin\EntityFramework.SqlServer.dll
+D:\Lập trình web\Lap-trinh-web-HUFLIT\FiveGuys MVC.NET\MVCFiveGuys\FiveGuys\FiveGuys\bin\Microsoft.VisualStudio.DebuggerVisualizers.dll
+D:\Lập trình web\Lap-trinh-web-HUFLIT\FiveGuys MVC.NET\MVCFiveGuys\FiveGuys\FiveGuys\bin\EntityFramework.xml
+D:\Lập trình web\Lap-trinh-web-HUFLIT\FiveGuys MVC.NET\MVCFiveGuys\FiveGuys\FiveGuys\bin\EntityFramework.SqlServer.xml

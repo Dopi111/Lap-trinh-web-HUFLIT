@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|solutionrelative:fiveguys\\views\\shared\\headerlayoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|d:\\l\u1EADp tr\u00ECnh web\\lap-trinh-web-huflit\\fiveguys mvc.net\\mvcfiveguys\\fiveguys\\fiveguys\\views\\trasuas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|D:\\L\u1EADp tr\u00ECnh web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\fiveguys\\views\\trasuas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|solutionrelative:fiveguys\\views\\trasuas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|d:\\l\u1EADp tr\u00ECnh web\\lap-trinh-web-huflit\\fiveguys mvc.net\\mvcfiveguys\\fiveguys\\fiveguys\\controllers\\trasuascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|D:\\L\u1EADp tr\u00ECnh web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\fiveguys\\controllers\\trasuascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|solutionrelative:fiveguys\\controllers\\trasuascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|solutionrelative:fiveguys\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|d:\\l\u1EADp tr\u00ECnh web\\lap-trinh-web-huflit\\fiveguys mvc.net\\mvcfiveguys\\fiveguys\\fiveguys\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|D:\\L\u1EADp tr\u00ECnh web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\fiveguys\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|solutionrelative:fiveguys\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -71,8 +71,7 @@
               "RelativeToolTip": "FiveGuys\\Views\\TraSuas\\Index.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-09T09:54:09.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T09:54:09.19Z"
             },
             {
               "$type": "Document",
@@ -84,8 +83,7 @@
               "RelativeToolTip": "FiveGuys\\Controllers\\TraSuasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T09:53:20.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T09:53:20.22Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "ToolTip": "D:\\L\u1EADp tr\u00ECnh web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Models\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "FiveGuys\\Models\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-11-09T08:07:56.681Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2024-11-09T08:07:56.681Z"
             },
             {
               "$type": "Document",
@@ -121,8 +118,7 @@
               "RelativeToolTip": "FiveGuys\\Context\\Product_Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T07:48:51.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T07:48:51.767Z"
             },
             {
               "$type": "Document",
@@ -134,8 +130,7 @@
               "RelativeToolTip": "FiveGuys\\Views\\Shop\\Index.cshtml",
               "ViewState": "AgIAAGgAAAAAAAAAAAAiwIYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-09T06:26:47.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T06:26:47.437Z"
             },
             {
               "$type": "Document",
@@ -147,8 +142,7 @@
               "RelativeToolTip": "FiveGuys\\Controllers\\ShopController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T05:59:15.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T05:59:15.016Z"
             },
             {
               "$type": "Document",
@@ -160,8 +154,7 @@
               "RelativeToolTip": "FiveGuys\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T05:36:06.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T05:36:06.229Z"
             }
           ]
         }

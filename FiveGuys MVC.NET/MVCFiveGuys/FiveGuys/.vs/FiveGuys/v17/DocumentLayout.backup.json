@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\L\u1EADp tr\u00ECnh web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|d:\\l\u1EADp tr\u00ECnh web\\lap-trinh-web-huflit\\fiveguys mvc.net\\mvcfiveguys\\fiveguys\\fiveguys\\views\\shared\\headerlayoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|solutionrelative:fiveguys\\views\\shared\\headerlayoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|d:\\l\u1EADp tr\u00ECnh web\\lap-trinh-web-huflit\\fiveguys mvc.net\\mvcfiveguys\\fiveguys\\fiveguys\\views\\trasuas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|solutionrelative:fiveguys\\views\\trasuas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -47,19 +51,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HeaderLayoutPage.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Views\\Shared\\HeaderLayoutPage.cshtml",
+              "RelativeDocumentMoniker": "FiveGuys\\Views\\Shared\\HeaderLayoutPage.cshtml",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Views\\Shared\\HeaderLayoutPage.cshtml",
+              "RelativeToolTip": "FiveGuys\\Views\\Shared\\HeaderLayoutPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T09:59:30.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Views\\TraSuas\\Index.cshtml",
               "RelativeDocumentMoniker": "FiveGuys\\Views\\TraSuas\\Index.cshtml",
               "ToolTip": "D:\\L\u1EADp tr\u00ECnh web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Views\\TraSuas\\Index.cshtml",
               "RelativeToolTip": "FiveGuys\\Views\\TraSuas\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-09T09:54:09.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TraSuasController.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Controllers\\TraSuasController.cs",
               "RelativeDocumentMoniker": "FiveGuys\\Controllers\\TraSuasController.cs",
@@ -72,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Models\\Model1.edmx",
               "RelativeDocumentMoniker": "FiveGuys\\Models\\Model1.edmx",
@@ -84,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TestimonialController.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Controllers\\TestimonialController.cs",
               "RelativeDocumentMoniker": "FiveGuys\\Controllers\\TestimonialController.cs",
@@ -96,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Product_Category.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Context\\Product_Category.cs",
               "RelativeDocumentMoniker": "FiveGuys\\Context\\Product_Category.cs",
@@ -109,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Views\\Shop\\Index.cshtml",
               "RelativeDocumentMoniker": "FiveGuys\\Views\\Shop\\Index.cshtml",
@@ -122,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ShopController.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Controllers\\ShopController.cs",
               "RelativeDocumentMoniker": "FiveGuys\\Controllers\\ShopController.cs",
@@ -135,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "FiveGuys\\Controllers\\HomeController.cs",

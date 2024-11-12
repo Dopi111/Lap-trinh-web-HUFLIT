@@ -3,10 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\khoan\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh\\web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|FiveGuys||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|c:\\users\\khoan\\onedrive\\ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh\\web\\lap-trinh-web-huflit\\fiveguys mvc.net\\mvcfiveguys\\fiveguys\\fiveguys\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|solutionrelative:fiveguys\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|c:\\users\\khoan\\onedrive\\ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh\\web\\lap-trinh-web-huflit\\fiveguys mvc.net\\mvcfiveguys\\fiveguys\\fiveguys\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|c:\\users\\khoan\\onedrive\\ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh\\web\\lap-trinh-web-huflit\\fiveguys mvc.net\\mvcfiveguys\\fiveguys\\fiveguys\\controllers\\whycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|solutionrelative:fiveguys\\controllers\\whycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WhyController.cs",
+              "DocumentMoniker": "C:\\Users\\khoan\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh\\web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Controllers\\WhyController.cs",
+              "RelativeDocumentMoniker": "FiveGuys\\Controllers\\WhyController.cs",
+              "ToolTip": "C:\\Users\\khoan\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh\\web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Controllers\\WhyController.cs",
+              "RelativeToolTip": "FiveGuys\\Controllers\\WhyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T10:41:43.785Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -25,13 +40,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FiveGuys",
-              "DocumentMoniker": "C:\\Users\\khoan\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh\\web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\FiveGuys.csproj",
-              "RelativeDocumentMoniker": "FiveGuys\\FiveGuys.csproj",
-              "ToolTip": "C:\\Users\\khoan\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh\\web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\FiveGuys.csproj",
-              "RelativeToolTip": "FiveGuys\\FiveGuys.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-06T01:31:04.313Z",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\khoan\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh\\web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FiveGuys\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\khoan\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh\\web\\Lap-trinh-web-HUFLIT\\FiveGuys MVC.NET\\MVCFiveGuys\\FiveGuys\\FiveGuys\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FiveGuys\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:21:55.325Z",
               "EditorCaption": ""
             }
           ]

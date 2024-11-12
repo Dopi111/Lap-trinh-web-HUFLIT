@@ -1,12 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\HUFLIT\\test web\\MVCFiveGuys\\FiveGuys\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\khoan\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh\\web2\\Lap-trinh-web-HUFLIT\\MVCFive\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|c:\\users\\khoan\\onedrive\\ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh\\web2\\lap-trinh-web-huflit\\mvcfive\\fiveguys\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D896D83-1C16-47B1-B021-ECA2DC828010}|FiveGuys\\FiveGuys.csproj|solutionrelative:fiveguys\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\khoan\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh\\web2\\Lap-trinh-web-HUFLIT\\MVCFive\\FiveGuys\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "FiveGuys\\Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\khoan\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh\\web2\\Lap-trinh-web-HUFLIT\\MVCFive\\FiveGuys\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "FiveGuys\\Models\\ShoppingCart.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:23:19.998Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

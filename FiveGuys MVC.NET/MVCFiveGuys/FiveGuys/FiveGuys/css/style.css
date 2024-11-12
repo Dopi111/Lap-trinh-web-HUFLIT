@@ -368,25 +368,25 @@ a:focus {
   color: #db4f66;
 }
 
-.shop_section .box .new {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 100%;
-  font-size: 15px;
-}
+    .shop_section .box .new {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: #ffffff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border-radius: 100%;
+        font-size: 15px;
+    }
 .shop_section .box .bestsale {
   width: 50px;
   height: 50px;

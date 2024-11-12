@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{5D896D83-1C16-47B1-B021-ECA2DC828010}|">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="FiveGuys/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="FiveGuys/Controllers/HomeController.cs" Line="11" Column="27" />
+      <File FileName="FiveGuys/FiveGuys.csproj" Line="331" Column="67" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FiveGuys" expanded="True">
+            <Node name="FiveGuys" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="CRUD ADMIN" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FiveGuys PreferredExecutionTarget="/Applications/CocCoc.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

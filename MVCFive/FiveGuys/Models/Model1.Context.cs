@@ -19,13 +19,18 @@ namespace FiveGuys.Models
             : base("name=FiveGuysProductEntities4")
         {
         }
-    
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
         }
-    
+
         public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<TraSua> TraSuas { get; set; }
+
+        // Image Management DbSets
+        public virtual DbSet<MediaImage> MediaImages { get; set; }
+        public virtual DbSet<HeroBanner> HeroBanners { get; set; }
+        public virtual DbSet<Post> Posts { get; set; }
     }
 }

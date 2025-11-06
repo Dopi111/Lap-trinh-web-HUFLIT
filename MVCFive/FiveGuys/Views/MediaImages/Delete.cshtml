@@ -1,0 +1,96 @@
+@model FiveGuys.Models.MediaImage
+
+@{
+    ViewBag.Title = "Xóa Hình Ảnh";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        body { margin-top: 20px; background: #f5f5f5; }
+        .delete-container { background: #fff; padding: 30px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,.1); }
+        .delete-warning { background: #f2dede; border: 1px solid #ebccd1; color: #a94442; padding: 20px; border-radius: 5px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="delete-container">
+                    <h2><i class="glyphicon glyphicon-warning-sign text-danger"></i> Xác Nhận Xóa Hình Ảnh</h2>
+
+                    <div class="delete-warning">
+                        <h4>Bạn có chắc chắn muốn xóa hình ảnh này?</h4>
+                        <p>Hành động này không thể hoàn tác!</p>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Thông tin hình ảnh</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="@Model.FullImageUrl" alt="@Model.ImageName" class="img-responsive img-thumbnail" />
+                                </div>
+                                <div class="col-md-8">
+                                    <dl class="dl-horizontal">
+                                        <dt>Tên:</dt>
+                                        <dd>@Model.ImageName</dd>
+
+                                        <dt>Loại:</dt>
+                                        <dd>@Model.ImageType</dd>
+
+                                        <dt>Mô tả:</dt>
+                                        <dd>@Model.Description</dd>
+
+                                        <dt>Đường dẫn:</dt>
+                                        <dd>@Model.ImagePath</dd>
+
+                                        <dt>Kích thước:</dt>
+                                        <dd>
+                                            @if (Model.FileSize.HasValue)
+                                            {
+                                                <text>@((Model.FileSize / 1024).ToString("N0")) KB</text>
+                                            }
+                                            @if (Model.Width.HasValue && Model.Height.HasValue)
+                                            {
+                                                <text> (@Model.Width x @Model.Height px)</text>
+                                            }
+                                        </dd>
+
+                                        <dt>Ngày tạo:</dt>
+                                        <dd>@Model.CreatedDate.ToString("dd/MM/yyyy HH:mm")</dd>
+
+                                        <dt>Người tạo:</dt>
+                                        <dd>@Model.CreatedBy</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-danger btn-lg">
+                                <i class="glyphicon glyphicon-trash"></i> Xác nhận xóa
+                            </button>
+                            <a href="@Url.Action("Index")" class="btn btn-default btn-lg">
+                                <i class="glyphicon glyphicon-arrow-left"></i> Hủy bỏ
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+@model FiveGuys.Models.HeroBanner
+
+@{
+    ViewBag.Title = "Thêm Banner Mới";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body { margin-top: 20px; background: #f5f5f5; }
+        .form-container { background: #fff; padding: 30px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,.1); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="form-container">
+                    <h2>Thêm Hero Banner Mới</h2>
+                    <hr />
+
+                    @using (Html.BeginForm("Create", "HeroBanners", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-horizontal">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(m => m.Title, new { htmlAttributes = new { @class = "form-control", placeholder = "Nhập tiêu đề banner" } })
+                                    @Html.ValidationMessageFor(m => m.Title, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Subtitle, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(m => m.Subtitle, new { htmlAttributes = new { @class = "form-control", placeholder = "Nhập tiêu đề phụ" } })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.TextAreaFor(m => m.Description, new { @class = "form-control", rows = 3, placeholder = "Nhập mô tả banner" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-md-2">Hình banner desktop <span class="text-danger">*</span></label>
+                                <div class="col-md-10">
+                                    <input type="file" name="desktopImage" class="form-control" accept="image/*" required />
+                                    <small class="text-muted">Khuyến nghị: 1920x600px. Tối đa 5MB</small>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-md-2">Hình banner mobile</label>
+                                <div class="col-md-10">
+                                    <input type="file" name="mobileImage" class="form-control" accept="image/*" />
+                                    <small class="text-muted">Khuyến nghị: 768x400px (tùy chọn)</small>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.BannerPosition, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.DropDownListFor(m => m.BannerPosition, (SelectList)ViewBag.BannerPositionList, "-- Chọn vị trí banner --", new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.BannerPosition, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.ButtonText, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-4">
+                                    @Html.EditorFor(m => m.ButtonText, new { htmlAttributes = new { @class = "form-control", placeholder = "VD: Xem thêm" } })
+                                </div>
+
+                                @Html.LabelFor(m => m.ButtonLink, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-4">
+                                    @Html.EditorFor(m => m.ButtonLink, new { htmlAttributes = new { @class = "form-control", placeholder = "VD: /shop" } })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.DisplayOrder, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-4">
+                                    @Html.EditorFor(m => m.DisplayOrder, new { htmlAttributes = new { @class = "form-control", type = "number", value = "0" } })
+                                </div>
+
+                                @Html.LabelFor(m => m.BackgroundColor, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-4">
+                                    @Html.EditorFor(m => m.BackgroundColor, new { htmlAttributes = new { @class = "form-control", type = "color" } })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.StartDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-4">
+                                    @Html.EditorFor(m => m.StartDate, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+                                </div>
+
+                                @Html.LabelFor(m => m.EndDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-4">
+                                    @Html.EditorFor(m => m.EndDate, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <button type="submit" class="btn btn-success btn-lg">
+                                        <i class="glyphicon glyphicon-floppy-disk"></i> Lưu Banner
+                                    </button>
+                                    <a href="@Url.Action("Index")" class="btn btn-default btn-lg">
+                                        <i class="glyphicon glyphicon-arrow-left"></i> Quay lại
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

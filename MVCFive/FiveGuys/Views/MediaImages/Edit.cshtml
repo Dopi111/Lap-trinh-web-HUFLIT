@@ -6,141 +6,143 @@
 }
 
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@ViewBag.Title</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - FiveGuys</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        body { margin-top: 20px; background: #f5f5f5; }
-        .form-container { background: #fff; padding: 30px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,.1); }
-        .form-title { margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #435d7d; }
-        .current-image, .preview-image { max-width: 300px; max-height: 300px; margin-top: 10px; }
-        .preview-image { display: none; }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
     </style>
 </head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="form-container">
-                    <div class="form-title">
-                        <h2>Chỉnh Sửa Hình Ảnh</h2>
-                    </div>
+<body class="bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 min-h-screen">
 
-                    @using (Html.BeginForm("Edit", "MediaImages", FormMethod.Post, new { enctype = "multipart/form-data" }))
-                    {
-                        @Html.AntiForgeryToken()
-                        @Html.HiddenFor(model => model.Id)
-
-                        <div class="form-horizontal">
-                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-
-                            <div class="form-group">
-                                @Html.LabelFor(model => model.ImageName, htmlAttributes: new { @class = "control-label col-md-2" })
-                                <div class="col-md-10">
-                                    @Html.EditorFor(model => model.ImageName, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.ValidationMessageFor(model => model.ImageName, "", new { @class = "text-danger" })
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                @Html.LabelFor(model => model.ImageType, htmlAttributes: new { @class = "control-label col-md-2" })
-                                <div class="col-md-10">
-                                    @Html.DropDownListFor(model => model.ImageType, (SelectList)ViewBag.ImageTypeList, new { @class = "form-control" })
-                                    @Html.ValidationMessageFor(model => model.ImageType, "", new { @class = "text-danger" })
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="control-label col-md-2">Hình ảnh hiện tại</label>
-                                <div class="col-md-10">
-                                    <img src="@Model.FullImageUrl" alt="@Model.ImageName" class="current-image img-thumbnail" />
-                                    <p class="help-block">@Model.ImagePath</p>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="control-label col-md-2">Thay đổi hình ảnh</label>
-                                <div class="col-md-10">
-                                    <input type="file" name="imageFile" id="imageFile" class="form-control" accept="image/*" />
-                                    <small class="text-muted">Để trống nếu không muốn thay đổi. Chấp nhận: JPG, JPEG, PNG, GIF, WEBP, SVG. Tối đa 5MB</small>
-                                    <br />
-                                    <img id="imagePreview" class="preview-image img-thumbnail" />
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
-                                <div class="col-md-10">
-                                    @Html.TextAreaFor(model => model.Description, new { @class = "form-control", rows = 3 })
-                                    @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                @Html.LabelFor(model => model.Width, htmlAttributes: new { @class = "control-label col-md-2" })
-                                <div class="col-md-4">
-                                    @Html.EditorFor(model => model.Width, new { htmlAttributes = new { @class = "form-control", type = "number" } })
-                                </div>
-
-                                @Html.LabelFor(model => model.Height, htmlAttributes: new { @class = "control-label col-md-2" })
-                                <div class="col-md-4">
-                                    @Html.EditorFor(model => model.Height, new { htmlAttributes = new { @class = "form-control", type = "number" } })
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                @Html.LabelFor(model => model.DisplayOrder, htmlAttributes: new { @class = "control-label col-md-2" })
-                                <div class="col-md-10">
-                                    @Html.EditorFor(model => model.DisplayOrder, new { htmlAttributes = new { @class = "form-control", type = "number" } })
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <div class="col-md-offset-2 col-md-10">
-                                    <div class="checkbox">
-                                        <label>
-                                            @Html.CheckBoxFor(model => model.IsActive)
-                                            @Html.DisplayNameFor(model => model.IsActive)
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <div class="col-md-offset-2 col-md-10">
-                                    <button type="submit" class="btn btn-primary btn-lg">
-                                        <i class="glyphicon glyphicon-floppy-disk"></i> Cập nhật
-                                    </button>
-                                    <a href="@Url.Action("Index")" class="btn btn-default btn-lg">
-                                        <i class="glyphicon glyphicon-arrow-left"></i> Quay lại
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    }
+    <div class="bg-white shadow-lg border-b border-gray-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <div class="flex items-center space-x-4">
+                <a href="@Url.Action("Index")" class="w-10 h-10 bg-gray-100 hover:bg-gray-200 rounded-xl flex items-center justify-center transition-all duration-300 group">
+                    <i class="fas fa-arrow-left text-gray-600 group-hover:-translate-x-1 transition-transform"></i>
+                </a>
+                <div>
+                    <h1 class="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                        Chỉnh Sửa Hình Ảnh
+                    </h1>
+                    <p class="text-sm text-gray-600 mt-1">Cập nhật thông tin hình ảnh</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <script>
-        document.getElementById('imageFile').addEventListener('change', function (e) {
-            var file = e.target.files[0];
-            if (file) {
-                var reader = new FileReader();
-                reader.onload = function (e) {
-                    var preview = document.getElementById('imagePreview');
-                    preview.src = e.target.result;
-                    preview.style.display = 'block';
-                }
-                reader.readAsDataURL(file);
-            }
-        });
-    </script>
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        @using (Html.BeginForm("Edit", "MediaImages", FormMethod.Post, new { enctype = "multipart/form-data", id = "editForm" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(model => model.Id)
+
+            <div class="space-y-6">
+                <div class="glass-effect rounded-2xl shadow-xl p-8">
+                    <h2 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
+                        <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-indigo-500 rounded-lg flex items-center justify-center mr-3">
+                            <i class="fas fa-image text-white text-sm"></i>
+                        </div>
+                        Hình Ảnh Hiện Tại
+                    </h2>
+
+                    <div class="flex items-start gap-6 bg-gray-50 rounded-xl p-6">
+                        <img src="@Model.FullImageUrl" alt="@Model.ImageName" class="w-64 h-48 object-cover rounded-lg shadow-lg" />
+                        <div class="flex-1">
+                            <p class="text-sm text-gray-600 mb-2"><strong>Đường dẫn:</strong> @Model.ImagePath</p>
+                            @if (Model.FileSize.HasValue)
+                            {
+                                <p class="text-sm text-gray-600 mb-2"><strong>Kích thước:</strong> @((Model.FileSize / 1024).ToString("N0")) KB</p>
+                            }
+                            @if (Model.Width.HasValue && Model.Height.HasValue)
+                            {
+                                <p class="text-sm text-gray-600"><strong>Dimensions:</strong> @Model.Width × @Model.Height px</p>
+                            }
+
+                            <div class="mt-4">
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Thay đổi hình ảnh (tùy chọn)</label>
+                                <input type="file" name="imageFile" id="imageFile" accept="image/*" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 transition-all duration-300" />
+                                <p class="text-xs text-gray-500 mt-2">Để trống nếu không muốn thay đổi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-effect rounded-2xl shadow-xl p-8">
+                    <h2 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
+                        <div class="w-8 h-8 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center mr-3">
+                            <i class="fas fa-info-circle text-white text-sm"></i>
+                        </div>
+                        Thông Tin Hình Ảnh
+                    </h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="md:col-span-2">
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Tên hình ảnh <span class="text-red-500">*</span></label>
+                            @Html.EditorFor(model => model.ImageName, new { htmlAttributes = new { @class = "w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 transition-all duration-300" } })
+                            @Html.ValidationMessageFor(model => model.ImageName, "", new { @class = "text-red-500 text-sm mt-1 block" })
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Loại hình ảnh <span class="text-red-500">*</span></label>
+                            @Html.DropDownListFor(model => model.ImageType, (SelectList)ViewBag.ImageTypeList, new { @class = "w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 transition-all duration-300 bg-white" })
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Thứ tự hiển thị</label>
+                            @Html.EditorFor(model => model.DisplayOrder, new { htmlAttributes = new { @class = "w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 transition-all duration-300", type = "number" } })
+                        </div>
+
+                        <div class="md:col-span-2">
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Mô tả</label>
+                            @Html.TextAreaFor(model => model.Description, new { @class = "w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 transition-all duration-300 resize-none", rows = 4 })
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Chiều rộng (px)</label>
+                            @Html.EditorFor(model => model.Width, new { htmlAttributes = new { @class = "w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 transition-all duration-300", type = "number" } })
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Chiều cao (px)</label>
+                            @Html.EditorFor(model => model.Height, new { htmlAttributes = new { @class = "w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 transition-all duration-300", type = "number" } })
+                        </div>
+
+                        <div class="md:col-span-2">
+                            <label class="flex items-center cursor-pointer">
+                                <div class="relative">
+                                    @Html.CheckBoxFor(model => model.IsActive, new { @class = "sr-only peer", id = "activeToggle" })
+                                    <div class="w-14 h-8 bg-gray-300 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-500/20 rounded-full peer peer-checked:after:translate-x-6 peer-checked:after:border-white after:content-[''] after:absolute after:top-1 after:left-1 after:bg-white after:border-gray-300 after:border after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-green-500"></div>
+                                </div>
+                                <span class="ml-3 text-sm font-semibold text-gray-700">Trạng thái hoạt động</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-effect rounded-2xl shadow-xl p-6">
+                    <div class="flex items-center justify-between gap-4">
+                        <a href="@Url.Action("Index")" class="flex items-center space-x-2 px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-xl transition-all duration-300 font-semibold">
+                            <i class="fas fa-times"></i>
+                            <span>Hủy bỏ</span>
+                        </a>
+                        <button type="submit" class="flex items-center space-x-2 px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white rounded-xl transition-all duration-300 font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
+                            <i class="fas fa-save"></i>
+                            <span>Cập nhật</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
 </body>
 </html>
